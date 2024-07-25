@@ -1,0 +1,109 @@
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #96bce6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh;
+}
+
+/* Estilo do título */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px; /* Espaço superior do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px; /* Espaço abaixo do container de cadastro */
+}
+
+/* Margem inferior no formulário */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilo das labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo das caixas de entrada com bordas arredondadas e mais grossas */
+input {
+    margin-bottom: 10px;
+    padding: 12px;
+    width: calc(100% - 24px); /* Ajusta a largura para compensar o padding */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da lista de produtos */
+#produtoList {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo de cada produto na lista */
+.produto {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo dos botões de editar e excluir */
+.edit-btn, .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-btn {
+    background-color: #ffa500;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #ff0000;
+    color: white;
+}
