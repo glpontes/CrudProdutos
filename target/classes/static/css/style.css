@@ -1,7 +1,7 @@
 /* Estilo do corpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #96bce6;
+    background-image: url('../sysEstoque.png');
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +13,10 @@ body {
 
 /* Estilo do título */
 h1 {
-    color: #ffffff;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 10px;
     text-align: center;
     margin-top: 20px; /* Espaço superior do título */
     margin-bottom: 20px; /* Espaço abaixo do título */
@@ -21,7 +24,7 @@ h1 {
 
 /* Container principal */
 .container {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -55,7 +58,7 @@ input {
 /* Estilo do botão */
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #00baff;
     color: white;
     border: none;
     border-radius: 8px;
